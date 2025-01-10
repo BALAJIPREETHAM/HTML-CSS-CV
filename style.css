@@ -17,7 +17,7 @@ a:hover {
 }
 
 article {
-  padding:0 1em;
+  padding: 0 1em;
 }
 
 section {
@@ -43,9 +43,15 @@ header section {
   max-width: 640px;
 }
 
+.profile-image {
+  margin-bottom: 1em;
+}
+
 header img {
   border-radius: 50%;
   max-width: 150px;
+  width: 150px;  /* You can adjust the size here */
+  height: 150px; /* Adjust the size here as well */
 }
 
 h1 {
@@ -165,6 +171,7 @@ footer {
   background-color: #136f6a;
 }
 
+/* Top Navigation Bar */
 #top-nav {
   background-color: #333;
   padding: 10px 0;
@@ -208,6 +215,10 @@ footer {
 
   .course .title, .course .descrition {
     max-width: 100%;
+  }
+
+  #top-nav ul {
+    padding: 0;
   }
 
   #top-nav ul li {
